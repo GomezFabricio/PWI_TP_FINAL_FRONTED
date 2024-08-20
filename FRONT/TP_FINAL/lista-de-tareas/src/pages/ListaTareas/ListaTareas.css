@@ -1,0 +1,49 @@
+.lista-tareas-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.lista-tareas-title {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lista-tareas-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-tareas-list li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.lista-tareas-list li:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .lista-tareas-container {
+        padding: 1rem;
+    }
+
+    .lista-tareas-title {
+        font-size: 1.5rem;
+    }
+
+    .lista-tareas-list li {
+        padding: 0.8rem;
+    }
+}

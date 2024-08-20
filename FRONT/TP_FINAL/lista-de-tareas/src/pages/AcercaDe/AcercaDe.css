@@ -1,0 +1,34 @@
+.acerca-de-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.acerca-de-title {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.acerca-de-description {
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .acerca-de-container {
+        padding: 1rem;
+    }
+
+    .acerca-de-title {
+        font-size: 1.5rem;
+    }
+
+    .acerca-de-description {
+        font-size: 1rem;
+    }
+}
